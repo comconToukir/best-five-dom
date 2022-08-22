@@ -17,7 +17,7 @@
           },
           brightness: {
             25: '.25',
-            40: '.40',
+            35: '.35',
           },
           fontFamily: {
             berk: ['Berkshire Swash'],
@@ -31,8 +31,8 @@
 
 <body class="text-white bg-zinc-900 font-manrope">
   <header
-    class="w-3/4 h-auto mx-auto mb-12 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center relative">
-    <img class="brightness-40" src="images/header/background.jpg" alt="">
+    class="mb-12 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center relative">
+    <img class="w-full brightness-35" src="images/header/background.png" alt="">
     <div class="absolute text-center flex flex-col items-center">
       <h1 class="text-7xl text-orange-600 font-berk mb-7">Best Players in the NBA</h1>
       <h4 class="text-lg w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam doloribus atque
@@ -41,6 +41,39 @@
       </h4>
     </div>
   </header>
+  <main class="grid grid-cols-4 gap-4 w-3/4 mx-auto">
+    <section id="player-cards"
+    class="col-span-3 grid grid-cols-3 gap-4">
+      <div class="card border-2 border-zinc-700">
+        <img src="images/players/Giannis Antetokounmpo.webp" alt="">
+        <div class="card-body p-3 text-center">
+          <h2 class="text-2xl font-medium mb-4 mt-5">Giannis Antetokounmpo</h2>
+          <p class="flex justify-around text-sm text-zinc-400"><span>200 points</span> <span>100 rebounds</span> <span>50 assists</span></p>
+          <button class="mt-7 mb-2 px-20 py-2 bg-blue-600 font-medium">SELECT</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/players/Giannis Antetokounmpo.webp" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/players/Giannis Antetokounmpo.webp" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+    </section>
+    <aside id="calculation" class="">
+      <div class="card">
+        <img src="images/players/Giannis Antetokounmpo.webp" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+    </aside>
+  </main>
   <script src="scripts/script.js"></script>
 </body>
 
