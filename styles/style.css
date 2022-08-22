@@ -3,13 +3,6 @@
 .card img {
   height: 225px;
 }
-.card-body {
-  flex: 1;
-}
-
-/* .bottom {
-  margin-top: auto;
-} */
 
 aside > .card:first-of-type {
   height: 417px;
