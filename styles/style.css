@@ -3,3 +3,10 @@
 .card img {
   height: 225px;
 }
+
+aside > .card:first-of-type {
+  height: 417px;
+}
+aside > .card:last-of-type {
+  height: 550px;
+}
